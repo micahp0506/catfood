@@ -1,4 +1,4 @@
-// get-dog-food/loading cat JSON file
+// get-cat-food/loading cat JSON file
 
 define(["jquery"], function($) {
   return {
