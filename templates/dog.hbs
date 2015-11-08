@@ -1,0 +1,12 @@
+<div class="dog">
+	{{#each dog_brands}}
+		{{#each types}}
+			{{#each volumes}}
+				<h1 id="dog_brand">{{../../brand}}</h1>
+				<p id="dog_type">{{../type}}</p>
+				<p id="dog_volume">{{volume}}</p>
+				<em id="dog_price">{{price}}</em>
+			{{/each}}
+		{{/each}}
+	{{/each}}		
+</div>	

@@ -1,0 +1,15 @@
+<div class="cat">
+	{{#each cat_brands}}
+		{{#each breeds}}
+			{{#each types}}
+				{{#each volumes}}
+					<h1 id="cat_brand">{{../../../brand}}</h1>
+					<p id="cat_breed">{{../../breed}}</p>
+					<p id="cat_type">{{../type}}</p>
+					<p id="cat_volume">{{volume}}</p>
+					<em id="cat_price">{{price}}</em>
+				{{/each}}
+			{{/each}}
+		{{/each}}
+	{{/each}}		
+</div>	
